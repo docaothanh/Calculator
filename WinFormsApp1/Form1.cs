@@ -19,7 +19,7 @@ namespace WinFormsApp1
 
         private void btCong_Click(object sender, EventArgs e)
         {
-            if(txtA.Text != " ")
+            if(txtA.Text != " " && txtB.Text != " ")
             {
                 double a = double.Parse(txtA.Text);
                 double b = double.Parse(txtB.Text);

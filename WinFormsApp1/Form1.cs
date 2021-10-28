@@ -19,12 +19,14 @@ namespace WinFormsApp1
 
         private void btCong_Click(object sender, EventArgs e)
         {
-
-
-            double a = double.Parse(txtA.Text);
-            double b = double.Parse(txtB.Text);
-            double c = a + b;
-            lbKQ.Text = c.ToString();
+            if(txtA.Text != " ")
+            {
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+                double c = a + b;
+                lbKQ.Text = c.ToString();
+            }
+            
         }
 
         
